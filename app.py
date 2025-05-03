@@ -7,7 +7,7 @@ st.title("Análisis Básico de Ventas")
 # Cargar el dataset
 @st.cache_data  
 def load_data():
-    df = pd.read_csv("Datos.csv")
+    df = pd.read_csv("static/dataset/sales_data.csv")
     return df
 
 df = load_data()
